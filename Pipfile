@@ -4,10 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
-django-webpack-loader = "*"
+django = "==2.2.3"
+django-webpack-loader = "==0.6.0"
 
 [dev-packages]
 
 [requires]
-python_version = "3.6"
+python_version = ">=3.6"
